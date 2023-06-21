@@ -2,7 +2,7 @@
 .husky
 .vscode
 *.md
-pnpm-lock.yaml
+*.yaml
 coverage
 dist
 node_modules

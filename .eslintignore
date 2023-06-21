@@ -3,6 +3,6 @@
 .vscode
 *.test.ts
 coverage
-pnpm-lock.yaml
+*.yaml
 dist
 node_modules
