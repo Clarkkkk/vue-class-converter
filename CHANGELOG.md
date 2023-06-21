@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.1](https://github.com/Clarkkkk/vue-class-converter/compare/v0.1.0...v0.1.1) (2023-06-21)
+
+
+### Bug Fixes
+
+* fix version mismatch of @types/vscode and engines.vscode ([05efea7](https://github.com/Clarkkkk/vue-class-converter/commit/05efea757d011f65406683c9953489f7bd8bc566))
+
+
+
 # 0.1.0 (2023-06-21)
 
 
