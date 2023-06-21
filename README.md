@@ -1,4 +1,4 @@
-# vue-class-converter README
+# vue-class-converter
 
 A small tool to convert vue class between string and array
 
@@ -16,8 +16,9 @@ A small tool to convert vue class between string and array
 ## Usage
 The command is available in right click context menu, as well as shorcut `Ctrl+k v` (`Cmd+k v` for Mac) and Command Palette.
 
-## Roadmap
+## To Do
 
+- [ ] Publish to the Open VSX Registry
 - [ ] Support VS Code web
 - [ ] Support jsx
 
