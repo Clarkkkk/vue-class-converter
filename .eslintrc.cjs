@@ -4,12 +4,7 @@ module.exports = {
         es2021: true,
         node: true
     },
-    extends: [
-        'standard',
-        'eslint:recommended',
-        'plugin:prettier/recommended',
-        'plugin:@typescript-eslint/recommended'
-    ],
+    extends: ['standard', 'eslint:recommended', 'plugin:prettier/recommended'],
     parser: '@typescript-eslint/parser',
     parserOptions: {
         parser: '@typescript-eslint/parser',
@@ -76,5 +71,15 @@ module.exports = {
                 functions: false
             }
         ]
-    }
+    },
+    overrides: [
+        {
+            files: ['*.ts'],
+            parser: '@typescript-eslint/parser',
+            extends: ['plugin:@typescript-eslint/recommended'],
+            rules: {
+                '@typescript-eslint/no-explicit-any': 'off'
+            }
+        }
+    ]
 }

@@ -1,6 +1,7 @@
 .history
 .husky
 .vscode
+*.test.ts
 coverage
 pnpm-lock.yaml
 dist
