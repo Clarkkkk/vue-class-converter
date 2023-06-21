@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.3](https://github.com/Clarkkkk/vue-class-converter/compare/v0.1.2...v0.1.3) (2023-06-21)
+
+
+### Bug Fixes
+
+* add repository in package.json ([1ffaf80](https://github.com/Clarkkkk/vue-class-converter/commit/1ffaf801b55466ffe56bb9ae55236135a2ee1a18))
+
+
+
 ## [0.1.2](https://github.com/Clarkkkk/vue-class-converter/compare/v0.1.1...v0.1.2) (2023-06-21)
 
 
