@@ -30,7 +30,15 @@
           "group": "1_modification@1"
         }
       ]
-    }
+    },
+    "keybindings": [
+      {
+        "when": "editorFocus && resourceLangId == 'vue'",
+        "command": "vue-class-converter.switchClassStyle",
+        "key": "Ctrl+k v",
+        "mac": "Cmd+k v"
+      }
+    ]
   },
   "scripts": {
     "prepare": "husky install",
