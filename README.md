@@ -1,71 +1,34 @@
 # vue-class-converter README
 
-This is the README for your extension "vue-class-converter". After writing up a brief description, we recommend including the following sections.
+A small tool to convert vue class between string and array
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Convert string class to array
+![string-to-array][string-to-array]
 
-For example if there is an image subfolder under your extension project workspace:
+### Convert array class to string
+![array-to-string][array-to-string]
 
-\!\[feature X\]\(images/feature-x.png\)
+### Convert wrapped array class to string
+![wrapped-array-to-string][wrapped-array-to-string]
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage
+The command is available in right click context menu, as well as shorcut `Ctrl+k v` (`Cmd+k v` for Mac) and Command Palette.
 
-## Requirements
+## Roadmap
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- [ ] Support VS Code web
+- [ ] Support jsx
 
-## Extension Settings
+## Release
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+See [CHANGELOG](CHANGELOG.md) for more information.
 
-For example:
+## Contributing
 
-This extension contributes the following settings:
+Bugs, feature requests and more are welcome here [GitHub Issues](https://github.com/Clarkkkk/vue-class-converter/issues).
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+[string-to-array]: https://raw.githubusercontent.com/Clarkkkk/vue-class-converter/main/assets/string-to-array.gif
+[array-to-string]: https://raw.githubusercontent.com/Clarkkkk/vue-class-converter/main/assets/array-to-string.gif
+[wrapped-array-to-string]: https://raw.githubusercontent.com/Clarkkkk/vue-class-converter/main/assets/wrapped-array-to-string.gif
