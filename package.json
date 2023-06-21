@@ -1,15 +1,27 @@
 {
   "name": "vue-class-converter",
   "displayName": "Vue class converter",
-  "description": "Converter CSS class between string and array quickly",
+  "description": "Switch CSS class between string and array quickly",
   "author": "Aaron Zhou",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.68.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
-    "Other"
+    "Programming Languages"
   ],
+  "keywords": [
+    "vue",
+    "class",
+    "tailwindcss"
+  ],
+  "badges": [
+
+  ],
+  "galleryBanner": {
+    "theme": "light"
+  },
+  "icon": "assets/logo.png",
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
