@@ -1,4 +1,10 @@
-# vue-class-converter
+# Vue Class Converter
+
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/aaaaronzhou.vue-class-converter.svg)
+![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/aaaaronzhou.vue-class-converter.svg)
+![Visual Studio Marketplace Rating Stars](https://img.shields.io/visual-studio-marketplace/stars/aaaaronzhou.vue-class-converter.svg)
+[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg)](http://opensource.org/licenses/MIT)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Clarkkkk/vue-class-converter/.github%2Fworkflows%2Fpublish.yml)](https://github.com/Clarkkkk/vue-class-converter/actions)
 
 A small tool to convert vue class between string and array
 
