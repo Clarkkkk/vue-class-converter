@@ -8,6 +8,14 @@
 
 A small tool to convert vue class between string and array
 
+## Why
+
+Sometimes we want to convert the pure string class to array form, so that we could add some conditional class. 
+
+For example, `<button class="btn">button</button>` to `<button :class="['btn', active: isActive]">button</button>`. However, it would be painful to rewrite it manually when the class gets longer, especially when using tailwindcss! (Imagine this: `<button class="relative bg-slate-900 hover:bg-slate-700 text-sm text-white font-semibold h-12 px-6 rounded-lg flex items-center dark:bg-slate-700 dark:hover:bg-slate-600 pointer-events-auto">button</button>`). 
+
+So I wrote this extension to do the job in one click...OK, it's two. But it's really convenient, try it!
+
 ## Features
 
 ### Convert string class to array
