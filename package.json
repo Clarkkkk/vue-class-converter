@@ -34,6 +34,7 @@
   "icon": "assets/logo.png",
   "activationEvents": [],
   "main": "./dist/extension.js",
+  "browser": "./dist/web-extension.mjs",
   "contributes": {
     "activationEvents": [
       "onLanguage:vue"
