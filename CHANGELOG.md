@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.2](https://github.com/Clarkkkk/vue-class-converter/compare/v0.2.1...v0.2.2) (2023-09-04)
+
+
+### Bug Fixes
+
+* modify configs following the vscode web extensions guide ([fe35a5d](https://github.com/Clarkkkk/vue-class-converter/commit/fe35a5d82cc560af1ac2984638a2dd10994c8336))
+
+
+
 ## [0.2.1](https://github.com/Clarkkkk/vue-class-converter/compare/v0.2.0...v0.2.1) (2023-09-04)
 
 
