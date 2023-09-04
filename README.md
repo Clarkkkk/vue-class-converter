@@ -33,7 +33,7 @@ The command is available in right click context menu, as well as shorcut `Ctrl+k
 ## To Do
 
 - [x] Publish to the Open VSX Registry
-- [ ] Support VS Code web
+- [x] Support VS Code web
 - [ ] Support jsx
 
 ## Release
