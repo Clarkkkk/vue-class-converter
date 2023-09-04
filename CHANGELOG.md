@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.1](https://github.com/Clarkkkk/vue-class-converter/compare/v0.2.0...v0.2.1) (2023-09-04)
+
+
+### Bug Fixes
+
+* use .js instead of .mjs for output files ([5c3d7db](https://github.com/Clarkkkk/vue-class-converter/commit/5c3d7db794ad53243e2ca49fc0e117fb199d9fa0))
+
+
+
 # [0.2.0](https://github.com/Clarkkkk/vue-class-converter/compare/v0.1.3...v0.2.0) (2023-09-04)
 
 
