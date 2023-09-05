@@ -32,13 +32,14 @@
     "theme": "light"
   },
   "icon": "assets/logo.png",
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:vue",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact"
+  ],
   "main": "./dist/extension.js",
   "browser": "./dist/extension.js",
   "contributes": {
-    "activationEvents": [
-      "onLanguage:vue"
-    ],
     "commands": [
       {
         "command": "vue-class-converter.switchClassStyle",
@@ -48,7 +49,7 @@
     "menus": {
       "editor/context": [
         {
-          "when": "editorFocus && resourceLangId == 'vue'",
+          "when": "editorFocus && resourceLangId =~ /vue|javascriptreact|typescriptreact/",
           "command": "vue-class-converter.switchClassStyle",
           "group": "1_modification@1"
         }
@@ -56,7 +57,7 @@
     },
     "keybindings": [
       {
-        "when": "editorFocus && resourceLangId == 'vue'",
+        "when": "editorFocus && resourceLangId =~ /vue|javascriptreact|typescriptreact/",
         "command": "vue-class-converter.switchClassStyle",
         "key": "Ctrl+k v",
         "mac": "Cmd+k v"

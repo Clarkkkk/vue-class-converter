@@ -9,7 +9,7 @@ import {
     stringClassToArray
 } from '../utils'
 
-export function switchClassStyle() {
+export function switchClassStyle(type: 'vue' | 'jsx') {
     const editor = vscode.window.activeTextEditor
     if (!editor) return
 
@@ -24,7 +24,7 @@ export function switchClassStyle() {
     if (arrayClassRegExp.test(text)) {
         result = arrayClassToString(text)
     } else if (stringClassRegExp.test(text)) {
-        result = stringClassToArray(text)
+        result = stringClassToArray(text, type)
     } else if (partialArrayClassRegExp.test(text)) {
         let wholeText = text
         let lineIndex = selection.start.line + 1
@@ -57,7 +57,7 @@ export function switchClassStyle() {
         })
     } else {
         vscode.window.showErrorMessage(
-            'Cannot recognize valid vue class. Please place the cursor on the first line of vue class'
+            'Cannot recognize valid vue class. Please place the cursor on the first line of the vue class'
         )
     }
 }
