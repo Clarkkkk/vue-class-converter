@@ -16,25 +16,27 @@ For example, `<button class="btn">button</button>` to `<button :class="['btn', a
 
 So I wrote this extension to do the job in one click...OK, it's two. But it's really convenient, try it!
 
+## Usage
+- Right click the line where `class` is located, and then click `Switch vue class style` in the context menu. Done!
+- The command is also available in shortcut `Ctrl+k v` (`Cmd+k v` for Mac) and Command Palette.
+- It can also be used in JSX/TSX files
+
 ## Features
 
-### Convert string class to array
+### Rewrite from string form to array form
 ![string-to-array][string-to-array]
 
-### Convert array class to string
+### Rewrite from array form to string form
 ![array-to-string][array-to-string]
 
-### Convert wrapped array class to string
+### Rewrite wrapped array as well
 ![wrapped-array-to-string][wrapped-array-to-string]
 
-## Usage
-The command is available in right click context menu, as well as shorcut `Ctrl+k v` (`Cmd+k v` for Mac) and Command Palette.
-
-## To Do
+## Done
 
 - [x] Publish to the Open VSX Registry
 - [x] Support VS Code web
-- [ ] Support jsx
+- [x] Support jsx
 
 ## Release
 
