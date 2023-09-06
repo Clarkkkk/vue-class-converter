@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+# [0.3.0](https://github.com/Clarkkkk/vue-class-converter/compare/v0.2.2...v0.3.0) (2023-09-06)
+
+
+### Features
+
+* support jsx/tsx ([cbde2be](https://github.com/Clarkkkk/vue-class-converter/commit/cbde2be955337480b03d10f1bd82c1022d922ed0))
+
+
+
 ## [0.2.2](https://github.com/Clarkkkk/vue-class-converter/compare/v0.2.1...v0.2.2) (2023-09-04)
 
 
