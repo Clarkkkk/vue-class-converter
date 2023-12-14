@@ -8,8 +8,8 @@ describe('arrayClassToString', () => {
         )
 
         expect(
-            arrayClassToString(":class=\"['flex', 'items-center', 'w-[120px]']\"")
-        ).toMatchInlineSnapshot('"class=\\"flex items-center w-[120px]\\""')
+            arrayClassToString(":class=\"['flex', 'items-center', 'min-h-[calc(100%-80px)]']\"")
+        ).toMatchInlineSnapshot('"class=\\"flex items-center min-h-[calc(100%-80px)]\\""')
 
         expect(
             arrayClassToString("<div :class=\"['flex', 'items-center']\">")
@@ -26,7 +26,7 @@ describe('arrayClassToString', () => {
         )
 
         expect(
-            arrayClassToString("class={['flex', 'items-center', 'w-[120px]']}")
-        ).toMatchInlineSnapshot('"class=\\"flex items-center w-[120px]\\""')
+            arrayClassToString("class={['flex', 'items-center', 'min-h-[calc(100%-80px)]']}")
+        ).toMatchInlineSnapshot('"class=\\"flex items-center min-h-[calc(100%-80px)]\\""')
     })
 })
