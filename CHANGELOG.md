@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.3.1](https://github.com/Clarkkkk/vue-class-converter/compare/v0.3.0...v0.3.1) (2023-12-14)
+
+
+### Bug Fixes
+
+* cannot recognize the class when it has arbitrary values and wrapped ([c6010a4](https://github.com/Clarkkkk/vue-class-converter/commit/c6010a4ef0c642f9591c889fd94e93241e6cd6e7))
+
+
+
 # [0.3.0](https://github.com/Clarkkkk/vue-class-converter/compare/v0.2.2...v0.3.0) (2023-09-06)
 
 
