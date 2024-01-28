@@ -4,7 +4,7 @@
   "description": "Switch CSS class between string and array quickly",
   "author": "Aaron Zhou",
   "publisher": "AaaaronZhou",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "engines": {
     "vscode": "^1.60.0"
   },
