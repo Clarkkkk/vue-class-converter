@@ -21,6 +21,37 @@ So I wrote this extension to do the job in one click...OK, it's two. But it's re
 - The command is also available in shortcut `Ctrl+k v` (`Cmd+k v` for Mac) and Command Palette.
 - It can also be used in JSX/TSX files
 
+## Note
+The extension simply use regular expression to detect and replace the class, so you may need to format your code first.
+
+For example, code like:
+```html
+:class="['relative', 
+    'w-5/6', 'overflow-hidden', 'rounded-3xl', 'transition-all', 'duration-500', 'hover:shadow-2xl', 'md:h-96', 'md:w-96']"
+```
+
+may not be recognize as valid class.
+
+It needs to be formatted like:
+
+```html
+:class="[
+    'relative', 
+    'w-5/6',
+    'overflow-hidden',
+    'rounded-3xl',
+    'transition-all',
+    'duration-500',
+    'hover:shadow-2xl',
+    'md:h-96',
+    'md:w-96'
+]"
+```
+
+or other common format styles.
+
+You can use ESLint or Prettier to format your code easily. Nevertheless, if you format your code and the extension is still unable to recognize it, please feel free to [open an issue](https://github.com/Clarkkkk/vue-class-converter/issues).
+
 ## Features
 
 ### Rewrite from string form to array form
@@ -36,7 +67,7 @@ So I wrote this extension to do the job in one click...OK, it's two. But it's re
 
 - [x] Publish to the Open VSX Registry
 - [x] Support VS Code web
-- [x] Support jsx
+- [x] Support JSX
 
 ## Release
 
